@@ -83,3 +83,14 @@ button.btn-secondary:hover {
   font-weight: bold;
   font-size: 18px;
 }
+.result a {
+  display: inline-block;
+  margin-top: 10px; /* Add some space above the link */
+  color: #ff7e5f; /* Change to your preferred link color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.result a:hover {
+  color: #feb47b; /* Change color on hover */
+}
