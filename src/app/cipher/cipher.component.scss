@@ -45,7 +45,7 @@ button {
   padding: 10px;
   margin-top: 10px;
   border: none;
-  border-radius: 8px;
+  border-radius: 14px;
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
@@ -53,8 +53,13 @@ button {
 }
 
 button.btn-primary {
-  background-color: #00c9ff;
+  background-color: #3c95ad;
   color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 button.btn-primary:hover {
@@ -63,12 +68,17 @@ button.btn-primary:hover {
 }
 
 button.btn-secondary {
-  background-color: #92fe9d;
+  background-color: #458a4c;
   color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 button.btn-secondary:hover {
-  background-color: #7ef085;
+  background-color: #6de574;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -87,10 +97,12 @@ button.btn-secondary:hover {
   display: inline-block;
   margin-top: 10px; /* Add some space above the link */
   color: #ff7e5f; /* Change to your preferred link color */
-  text-decoration: none; /* Remove underline */
   transition: color 0.3s ease; /* Smooth color transition on hover */
 }
 
 .result a:hover {
   color: #feb47b; /* Change color on hover */
+}
+.result a small {
+  font-size: 12px; /* Change the font size to be smaller */
 }
