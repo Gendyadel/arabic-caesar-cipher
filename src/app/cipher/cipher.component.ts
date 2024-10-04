@@ -28,7 +28,8 @@ export class CipherComponent {
   // Caesar Cipher logic
   caesarCipher(text: string, shift: number): string {
     let result = '';
-
+    // Step to replace every 'ا' with 'أ'
+    text = text.replace(/ا/g, 'أ');
     for (let char of text) {
       const index = this.arabicLetters.indexOf(char);
       if (index === -1) {
